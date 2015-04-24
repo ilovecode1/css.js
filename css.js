@@ -3,7 +3,7 @@
 function cssjs(csscode) {
     
    var css = csscode;
-   var head = document.head || document.getElementsByTagName('head')[0]
+   var head = document.head || document.getElementsByTagName('head')[0];
    var style = document.createElement('style');
 
    style.type = 'text/css';
