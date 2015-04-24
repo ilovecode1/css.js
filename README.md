@@ -1,3 +1,15 @@
+#5 Reasons To Use CSS.js:
+
+1. Simple!
+
+2. Less Code!
+
+3. Live!
+
+4. Fast!
+
+5. Great For Animations!
+
 #About
 
 Simply add CSS with JS!
