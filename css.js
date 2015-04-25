@@ -1,9 +1,14 @@
 //CSS.js v0.1.0
 
-function cssjs(csscode) {
+function cssjs(csscode, where=true;) {
     
    var css = csscode;
-   var head = document.head || document.getElementsByTagName('head')[0];
+    if (where != false) {
+       var head = document.head || document.getElementsByTagName('head')[0];
+    }
+    else {
+        var body = document.body || document.getElementsByTagName('body')[0];
+    }
    var style = document.createElement('style');
 
    style.type = 'text/css';
@@ -13,6 +18,12 @@ function cssjs(csscode) {
       style.appendChild(document.createTextNode(css));
    }
 
-     head.appendChild(style);
+    if (where == true) {
+       head.appendChild(style);
+    }
+    
+    if (where == false) {
+       body.appendChild(style);
+    }
     
 }
