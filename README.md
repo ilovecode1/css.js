@@ -20,6 +20,28 @@ cssjs("yourcsscode");
 
 It updates live so you do not have to worry!
 
+#New Options
+
+With v0.2.0 we now have a option of where to put your CSS:
+
+##In The Head Element:
+
+```
+cssjs("yourcsscode");
+```
+
+or
+
+```
+cssjs("yourcsscode", true);
+```
+
+#In the Body Element
+
+```
+cssjs("yourcsscode",false);
+```
+
 #Demo
 
 HTML
@@ -37,4 +59,6 @@ cssjs("h1{background: red}");
 
 #Version
 
-v0.1.0
+v0.1.0 - Release
+
+v0.2.0 - New Option See ```#New Options```
