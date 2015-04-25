@@ -1,4 +1,4 @@
-//CSS.js v0.1.0
+//CSS.js v0.2.0
 
 function cssjs(csscode, where=true;) {
     
