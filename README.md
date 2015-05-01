@@ -1,3 +1,5 @@
+CSS.js's CDN https://cdn.rawgit.com/ilovecode1/css.js/master/css.min.js
+
 #5 Reasons To Use CSS.js:
 
 1. Simple!
